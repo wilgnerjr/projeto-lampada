@@ -1,0 +1,73 @@
+*{
+    border: 0px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: limegreen;
+}
+
+/* ==========CABEÇARIO========== */
+
+header{
+    background-color: rgb(53, 53, 53);
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: white;
+}
+
+/* ==========CORPO========== */
+
+main{
+    width: 100%;
+    height: 80vh;
+    background-color: aqua;
+    text-align: center;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+main img{
+    width: 150px;
+}
+main button{
+    width: 150px;
+    justify-content: center;
+    margin: 15px auto;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+main h1{
+    padding-top: 50px;
+}
+#buttonOn{
+    border-radius: 10px 3px 20px 10px;
+}
+#buttonOff{
+    border-radius: 3px 10px 10px 20px;
+}
+main button:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px 2px rgb(80, 77, 77);
+}
+/* ==========RODAPÉ========== */
+
+footer{
+    height: 10vh;
+    background-color: rgb(53, 53, 53);
+    display: flex;
+    align-items: center;
+}
+footer p{
+    font-size: 2em;
+    color: white;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+}
